@@ -1,4 +1,4 @@
-# Day [09] - [2185. Counting Words With a Given Prefix]
+# Day 09 - [2185. Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/submissions/?envType=daily-question&envId=2025-01-09)
 Date: 2025-01-09
 
 Difficulty: Easy
