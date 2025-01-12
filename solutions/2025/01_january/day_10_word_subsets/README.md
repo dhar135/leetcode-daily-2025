@@ -42,14 +42,43 @@ Output: ["cccbb"]
 
 
 ## Approach
-[Your approach here]
+The solution uses character frequency counting to efficiently determine universal strings. 
+
+Here's the step-by-step approach:
+
+1. Create a maximum frequency array (max_freq) to track the highest frequency needed for each character across all words in words2:
+
+    - Initialize array of size 26 (a-z)
+    - For each word in words2, count character frequencies
+    - Update max_freq with maximum frequency for each character
+
+
+2. Check each word in words1 against the requirements:
+
+    - Count character frequencies in current word
+    - Compare against max_freq
+    - If word has sufficient frequency for all required characters, add to result
 
 ## Complexity Analysis
-- Time Complexity: O(?)
-- Space Complexity: O(?)
+
+
+- Time Complexity: O(N*M + K), where:
+
+    - N = length of words1
+    - M = max length of any word in words1
+    - K = total length of all words in words2
+
+
+- Space Complexity: O(1)
+
+    - Uses fixed-size arrays (26 elements) for character frequencies
+    - Result array not counted as per convention
 
 ## Learning Points
-[What you learned today]
+- Efficient character frequency tracking using fixed-size arrays
+- Combining multiple requirements into a single check
+- Using ASCII values for array indexing
+- Handling frequency requirements vs simple presence checks
 
 ## Similar Problems
 [Related problems you can practice]
