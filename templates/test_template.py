@@ -1,18 +1,12 @@
-import pytest
-from solution import solution_function  # Replace with your function name
+from solution import Solution
 
-# Test cases for the problem
-@pytest.mark.parametrize(
-    "input_data, expected",
-    [
-        # Add your test cases here as tuples (input_data, expected_output)
-        # Example format:
-        # ({"words": ["pay", "attention", "practice", "attend"], "pref": "at"}, 2),
-        # ({"words": ["leetcode", "win", "loops", "success"], "pref": "code"}, 0),
+def test_template():
+    solution = Solution()
+    test_cases = [
+        # Add test cases here
+        # (["pay", "attention", "practice", "attend"], "at", 2),
+        # (["leetcode", "win", "loops", "success"], "code", 0)
     ]
-)
-def test_solution_function(input_data, expected):
-    """
-    Test the solution function with various input and expected output pairs.
-    """
-    assert solution_function(**input_data) == expected
+
+    for test_case in test_cases:
+        assert solution.testfunction(test_case[0], test_case[1]) == test_case[2]

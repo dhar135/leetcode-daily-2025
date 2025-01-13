@@ -1,5 +1,5 @@
 # test_solution.py
-from solution import Solution
+from day_09_solution import Solution
 
 def test_prefix_count():
     solution = Solution()

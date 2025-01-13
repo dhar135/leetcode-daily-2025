@@ -1,4 +1,4 @@
-from solution import Solution
+from day_10_solution import Solution
 
 def test_word_subsets():
     solution = Solution()
