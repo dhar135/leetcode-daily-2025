@@ -57,11 +57,9 @@ The final value of ans is returned as our required answer.
 
 
 ## Complexity Analysis
-- Time Complexity: O(?)
-- Space Complexity: O(?)
+- Time Complexity: O(n + m) where n is the length of nums1 and m is the length of nums2.
+- Space Complexity: O(n + m)
 
 ## Learning Points
-[What you learned today]
-
-## Similar Problems
-[Related problems you can practice]
+- This turned out to be a frequency type of problem (did not think of that at first)
+- never use a time complexity of (n * 2) when working with given constraints
