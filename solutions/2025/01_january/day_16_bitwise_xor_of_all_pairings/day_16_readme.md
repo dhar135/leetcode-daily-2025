@@ -49,6 +49,8 @@ Thus, one possible nums3 array is [2,5,1,6].
 This approach did not work because the memory limit exceed the compacity
 
 ### Optimal Approach
+- _**NOTE: I received optimal approach from Leetcode editorial.**_
+
 One of the best data structures to count the frequency of an element is a hash map. 
 We iterate through the elements of nums1 and nums2 and add their total occurrences to the map. 
 Once the frequencies are determined, we initialize a variable ans to store the XOR result. 
